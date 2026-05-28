@@ -1,0 +1,186 @@
+# gt86-archive
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GT86 Archive</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    header {
+      background: white;
+      border-bottom: 1px solid #ddd;
+      padding: 20px;
+      position: sticky;
+      top: 0;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: 240px 1fr 280px;
+      gap: 20px;
+      max-width: 1400px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 20px;
+      border: 1px solid #ddd;
+    }
+
+    h1, h2, h3 {
+      margin-top: 0;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    .hero {
+      padding: 50px;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      line-height: 1.2;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: #111;
+      color: white;
+      border-radius: 12px;
+      text-decoration: none;
+    }
+
+    .post {
+      margin-bottom: 15px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 16px;
+    }
+
+    @media (max-width: 1000px) {
+      .container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>GT86 Archive</h1>
+  <div>ZN6 / FA20 Personal Knowledge Base</div>
+</header>
+
+<div class="container">
+
+  <aside class="card">
+    <h2>Categories</h2>
+
+    <h3>Maintenance</h3>
+    <ul>
+      <li>Engine Oil</li>
+      <li>Transmission</li>
+      <li>Brake</li>
+    </ul>
+
+    <h3>Setup</h3>
+    <ul>
+      <li>Gymkhana</li>
+      <li>Circuit</li>
+      <li>Street</li>
+    </ul>
+
+    <h3>Troubleshooting</h3>
+    <ul>
+      <li>RTV</li>
+      <li>CEL Codes</li>
+      <li>Fuel Pump</li>
+    </ul>
+  </aside>
+
+  <main>
+
+    <section class="card hero">
+      <h2>
+        깔끔하게 정리된<br>
+        GT86 데이터 아카이브
+      </h2>
+
+      <p>
+        유지보수, 셋업, 휠 간섭 사례,
+        고질병, DIY 작업 기록 등을
+        정리하는 개인 아카이브 사이트.
+      </p>
+
+      <a class="button" href="#">
+        Browse Articles
+      </a>
+    </section>
+
+    <section style="margin-top:20px;">
+      <div class="post card">
+        <h3>ZN6 엔진오일 교환 가이드</h3>
+        <p>
+          0W-20 / 5W-30 사용 경험과
+          실제 교환 팁 정리.
+        </p>
+      </div>
+
+      <div class="post card">
+        <h3>18x9.5 +38 간섭 사례</h3>
+        <p>
+          255 타이어 기준 실제 간섭 여부와
+          캠버값 정리.
+        </p>
+      </div>
+
+      <div class="post card">
+        <h3>짐카나 셋업 기록</h3>
+        <p>
+          순정 서스 기반 언더 억제 세팅 메모.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <aside class="card">
+    <h2>Quick Access</h2>
+
+    <ul>
+      <li>순정 토크값</li>
+      <li>오일 규격표</li>
+      <li>휠 옵셋표</li>
+      <li>RTV 문제 정리</li>
+    </ul>
+
+    <hr>
+
+    <h2>Vehicle Info</h2>
+
+    <p>Platform: ZN6</p>
+    <p>Engine: FA20</p>
+    <p>Drive: FR</p>
+    <p>Weight: 1270kg</p>
+  </aside>
+
+</div>
+
+</body>
+</html>
