@@ -1,7 +1,5 @@
 backend:
-  name: github
-  repo: masa9803/gt86-archive
-  branch: main
+  name: git-gateway
 
 media_folder: "images/uploads"
 public_folder: "/images/uploads"
