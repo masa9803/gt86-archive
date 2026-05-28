@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: masa9803/gt86-archive
+  branch: main
+
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "posts"
+    create: true
+
+    fields:
+      - { label: "제목", name: "title", widget: "string" }
+
+      - { label: "작성일", name: "date", widget: "datetime" }
+
+      - { label: "썸네일", name: "thumbnail", widget: "image" }
+
+      - { label: "본문", name: "body", widget: "markdown" }
